@@ -2,13 +2,13 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-		"label": "Start SnapLogic Groundplex with debugging",
-		"type": "shell",
-		"command": "./scripts/start-jcc-debug.sh",
-		"presentation": {
-			"reveal": "always",
-			"panel": "new"
-		}
+			"label": "Start SnapLogic Groundplex with debugging",
+			"type": "shell",
+			"command": "./scripts/start-jcc-debug.sh",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
 		}
 	]
 }

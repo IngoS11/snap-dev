@@ -22,7 +22,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "scripts/install-jcc.sh"
+	"postCreateCommand": "scripts/install-jcc.sh ${localWorkspaceFolderBasename}"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
